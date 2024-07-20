@@ -14,5 +14,5 @@ func main() {
 	systemInfo.GetNetStat()
 
 	utils.PrintSystemInfo(&systemInfo)
-	utils.SaveJSONToFile(&systemInfo)
+	utils.SaveSystemInfoToFile(&systemInfo)
 }

@@ -156,7 +156,7 @@ func PrintSystemInfo(s *SysInfo) {
 
 }
 
-func SaveJSONToFile(s *SysInfo) {
+func SaveSystemInfoToFile(s *SysInfo) {
 	file, err := os.Create("system-info.json")
 	if err != nil {
 		log.Fatalf("Error creating JSON file: %v", err)
